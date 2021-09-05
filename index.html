@@ -50,6 +50,9 @@
        <div class="jumbotron" id="about" >
         <div class="container">
             <h1 class="display4 text-center">About</h1>
+            <p class="lead text-center">The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.
+
+</p>
             <p class="lead text-center">Would you like to know your Akan name but dont know where to start?</p>
             <p class="text-center">Dont you worry,I will give you your Akan Name in minutes!</p>
             <p class="text-center">This application has been built to help get your Akan name fast.You only need to enter your birthday date,gender and click on submit! </p>
@@ -61,30 +64,48 @@
     </div>
 </section>
 <!-- End of about section -->
-<div class="container">
-    <div class=" text-center" id ="header">
-      <h1>Akan Names</h1>
-      <p>Akan-Name-Generator will give you a name depending on your birth date and gender</p>
+ <!-- Start of Contact Section -->
+    
+ <div class="contact" id="contact">
+</br>
+    <div class="get_in_touch">
+        <h1 class="title">Get In Touch</h1>
+        <div class="container">
+            <div class="contact-form row">
+                <p>Incase of any concerns or comments,please reach out to me</p>
+                <div class="form-field col-lg-6">
+                    <input id="name" class="input-text" type="text" name="">
+                    <label for="name" class="label">name</label>
+                </div>
+                <div class="form-field col-lg-6">
+                    <input id="email" class="input-text" type="email" name="">
+                    <label for="email" class="label">email</label>
+                </div>
+                <div class="form-field col-lg-6">
+                    <input id="phone" class="input-text" type="text" name="">
+                    <label for="phone" class="label">contact number</label>
+                </div>
+                <div class="form-field col-lg-12">
+                    <input id="message" class="input-text" type="text" name="">
+                    <label for="message" class="label">Message</label>
+                </div>
+                <div class="form-field col-lg-12">
+                    <a href="#"><input class="submit-btn" type="submit" value="submit" name=""></a>
+                    
+                </div>
+            </div>
+        </div>
     </div>
-
-      <form id="form" method="POST">
-        <fieldset>
-          <legend>Input your DOB to get started:</legend>
-          Date:<input type="number" id="date">
-          Month:<input type="number" id="month">
-          Year:<input type="number" id="year">
-          <select id="gender">
-            <option value="Female">Female</option>
-            <option value="Male">Male</option>
-          </select>
-        </fieldset>
-        <br>
-        <input type="submit" value="Submit" id="submitButton" class="btn btn-primary" onclick="generateName(); return false"/>
-        <h2 class ="text-center" id="result">Results:</h2>
-      </form>
-
- </div>
+</div>
+<!-- End of Contact Section -->
+<div id="Footer">
+<!-- Start of the footer -->
+<footer class="text-center">
+    <a class="navbar-brand" href="#"></a>
+    <p>Copyright &copy; 2021 by <span>Nancy</span></p>
+    </footer>
+</footer>
+<!-- End of the footer Section -->
+<!-- Start of bootstrap Bundle with Popper --> 
 </body>
-<script src="JS/scripts.js"></script>
-
 </html>
