@@ -1,6 +1,8 @@
 # Akan-Name-Calculator
 This Website is designed to take users input and generate an Akan Name considering their date of birth and their gender.
 The site is user friendly and will help the user get their Akan name in a matter of minutes!
+ ## The live link to my site is
+  https://nancy-codergirl.github.io/Records/
 ## Project Setup Instructions
 * Clone the repository and modify the content of index.html according to your requirement.
 * Add or remove images from ../assets/img/ directory as per your requirement.
