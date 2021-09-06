@@ -17,6 +17,12 @@ Language used for this projects include:
 * CSS
 * Bootstrap
 *Javascript
+#### Behaviour Driven Development
+After the website loads,you can navigate the site using the Navigation bar.
+For the user,to get her name,the process is simple,they will first :
+   * Fill in their details in the space provided that is DOB,MOB,YOB and gender.
+   * They will then click on the submit button and their Akan name will be displayed.
+
 
  ###  Support or concern Issues
  Incase of anything,reach out to me via :info@nancy.gmail.com
